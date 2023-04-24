@@ -1,0 +1,7 @@
+circle {
+  /* fill 填塞 */
+  fill: blue;
+  /* 邊框色 */
+  stroke: orange;
+  stroke-width: 3px;
+}

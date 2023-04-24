@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rect</title>
+  </head>
+  <body>
+    <svg width="300" height="200">
+      <!-- 矩形由左上角開始渲染 -->
+      <rect width="200" height="100"></rect>
+    </svg>
+    <svg width="300" height="200">
+      <!-- rx ry 圓角 -->
+      <!-- rx 和 ry 屬性分別用於指定橫向和縱向圓角的半徑。如果只指定了其中一個屬性，那麼另一個屬性也將設置為相同的值。如果未指定任何一個屬性，那麼矩形的四個角就是直角。 -->
+      <rect width="100" height="50" x="20" y="20" rx="4" ry="4"></rect>
+    </svg>
+  </body>
+</html>
