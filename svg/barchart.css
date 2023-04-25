@@ -1,0 +1,12 @@
+line {
+  stroke: gray;
+}
+text {
+  fill: teal;
+}
+rect {
+  fill: teal;
+}
+.name {
+  fill: white;
+}
